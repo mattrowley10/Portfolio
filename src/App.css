@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.app, html{
+ min-height: 100%;
+ background-color: #FFF8F0;
+}
+
+.navbar-header{
+  font-family: 'Slabo';
+  margin-left: 1rem;
+}
+.nav-links{
+  color: white;
+  font-size: 18px;
+  margin-right: 2rem;
+}
+.navbar{
+  background-color: #3C1518;
+  font-family: 'Slabo';
+}
+.dropdown-menu.show{
+  background-color: #3C1518;
+}
+.home{
+  /* display: flex;
+  flex-direction: column; */
+  justify-content: center;
+  background-color: #FFF8F0;
+  height: 95vh;
+  
+}
+.homeimg{
+  height: 300px;
+  width: 400px;
+  border-radius: 22rem 10rem 22rem 10rem;
+  position: relative;
+  left: 5rem;
+  top: 10rem;
+}
+.icon-list{
+ list-style: none;
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content: center;
+ position: absolute;
+ left: 30rem;
+}
+.icons{
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+}
+.about-section{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 50rem;
+  min-height: 25rem;
+  color: #983628;
+}
+.about-header{
+  position: relative;
+  top: 31rem;
+  padding-left: 2rem;
+  color: #983628;
+}
+.about-body{
+  padding-left: 2rem;
+  font-size: 18px;
+  padding-right: 5rem;
+  margin-top: 3rem;
+}
+
+.aboutimg{
+  border-radius: 20%;
+  height: 350px;
+  width: 350px;
+  padding-right: 2rem;
+  opacity: 0;
+  transform: translateX(100px);
+  
+}
+.aboutimg.active{
+  opacity: 1;
+  transform: translateX(0);
+  transition: 3.5s ease;
+}
+@media(max-width: 905px){
+  .icon-list{
+    right: 30rem;
+    top: 30rem;
+    left: 15rem;
+  }
+}
+@media(max-width: 500px){
+  .icon-list{
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: absolute;
+    top: 30rem;
+    left: 5rem;
+    right: 5rem;
+  }
+  .homeimg{
+    height: 300px;
+    width: 400px;
+    left: 0rem;
+  }
+  .about-section{
+    flex-wrap: wrap;
+  }
+  .aboutimg{
+    margin-left: 2rem;
+  }
+}
+.projects{
+  color: #983628;
+  font-family: "Slabo";
+  text-align: center;
+  position: relative;
+  top: 4rem;
+  background-color: #FFF8F0;
+  
+}
+.project-img{
+  height: 300px;
+  width: 400px;
+  margin-top: 5rem;
+  margin-right: 4rem;
+  border: 1px solid #3C1518;
+  box-shadow: 4px 1px 4px 1px #3C1518;
+  border-radius: 5%;
+}
+.projects-list{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FFF8F0;
+}
