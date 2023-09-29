@@ -9,7 +9,7 @@
 
 .app, html{
  min-height: 100%;
- background-color: #FFF8F0;
+ background-color: #FFFFFB;
 }
 
 .navbar-header{
@@ -22,27 +22,50 @@
   margin-right: 2rem;
 }
 .navbar{
-  background-color: #3C1518;
+  background-color:#1C3144;
   font-family: 'Slabo';
 }
 .dropdown-menu.show{
-  background-color: #3C1518;
+  background-color: #5B5F97;
 }
 .home{
-  /* display: flex;
-  flex-direction: column; */
   justify-content: center;
-  background-color: #FFF8F0;
+  background-color: #FFFFFB;
   height: 95vh;
   
 }
 .homeimg{
   height: 300px;
   width: 400px;
-  border-radius: 22rem 10rem 22rem 10rem;
+  border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
   position: relative;
   left: 5rem;
   top: 10rem;
+  animation: morph 6s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+}
+.under-pic{
+  position: absolute;
+  top: 30rem;
+  left: 8rem;
+  font-size: 19px;
+  font-weight: bold;
+  color: #2F4858;
+  font-family: 'Slabo';
+  text-align: center;
+}
+@keyframes morph {
+  0% {
+      border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
+  } 
+  
+  50% {
+      border-radius:  30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  
+  100% {
+    border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
+  } 
 }
 .icon-list{
  list-style: none;
@@ -56,6 +79,11 @@
   margin-right: 10px;
   height: 40px;
   width: 40px;
+  border: 1px solid #336699;
+  
+}
+.icons:hover{
+  box-shadow: 1.5px 1px 1.5px 2px #336699;
 }
 .about-section{
   display: flex;
@@ -63,29 +91,34 @@
   position: absolute;
   top: 50rem;
   min-height: 25rem;
-  color: #983628;
+  color:#2F4858;
+  max-width: 80%;
+  margin-left: 5rem;
+  font-family: "Slabo";
 }
 .about-header{
-  position: relative;
-  top: 31rem;
+  position: absolute;
+  top: 50rem;
   padding-left: 2rem;
-  color: #983628;
+  color: #2F4858;
+  margin-left: 5rem;
+  font-family: 'Slabo';
+  font-weight: bold;
 }
 .about-body{
   padding-left: 2rem;
-  font-size: 18px;
+  font-size: 19px;
   padding-right: 5rem;
   margin-top: 3rem;
+  font-weight:500;
 }
 
 .aboutimg{
   border-radius: 20%;
   height: 350px;
   width: 350px;
-  padding-right: 2rem;
   opacity: 0;
   transform: translateX(100px);
-  
 }
 .aboutimg.active{
   opacity: 1;
@@ -98,6 +131,14 @@
     top: 30rem;
     left: 15rem;
   }
+  .under-pic{
+    top: 40rem;
+    text-align: center;
+  }
+  .aboutimg{
+    position: absolute;
+    top: 20rem;
+  }
 }
 @media(max-width: 500px){
   .icon-list{
@@ -108,6 +149,7 @@
     left: 5rem;
     right: 5rem;
   }
+
   .homeimg{
     height: 300px;
     width: 400px;
@@ -116,31 +158,84 @@
   .about-section{
     flex-wrap: wrap;
   }
+ .about-section{
+  margin-left: 0;
+  padding: 0;
+ }
   .aboutimg{
-    margin-left: 2rem;
+    top: 30rem;
+  }
+  .about-header{
+    padding-left: 0;
+  }
+  .under-pic{
+    left: 5rem;
+  }
+}
+@media(max-width: 800px){
+  .aboutimg{
+    padding-left: 0;
   }
 }
 .projects{
-  color: #983628;
+  color: #2F4858;
   font-family: "Slabo";
   text-align: center;
   position: relative;
   top: 4rem;
-  background-color: #FFF8F0;
-  
+  background-color:#FFFFFB;
 }
 .project-img{
-  height: 300px;
-  width: 400px;
-  margin-top: 5rem;
-  margin-right: 4rem;
-  border: 1px solid #3C1518;
-  box-shadow: 4px 1px 4px 1px #3C1518;
+  height: 500px;
+  width: 600px;
+  margin-top: 8rem;
+  margin-left: 26rem;
+  margin-bottom: 5rem;
+  border: 1px solid #336699;
+  box-shadow: 1px 1px 1px 1px #336699;
   border-radius: 5%;
+  
 }
-.projects-list{
+.project-img:hover{
+  box-shadow: 5px 1px 5px 1px #336699;
+}
+
+.carousel{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #FFFFFB;
+}
+
+.contact{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #2F4858;
+  background-color: #FFFFFB;
+}
+.contact-header{
+  margin-bottom: 1rem;
+}
+.contact-list{
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
-  background-color: #FFF8F0;
+  flex-direction: column;
+}
+.contact-list-item{
+  
+  margin-right: 2rem;
+  padding: 1rem;
+}
+.contact-icon{
+  height: 60px;
+  width: 60px;
+}
+.contact-details{
+  position: relative;
+  left: 10rem;
+  bottom: 22rem;
+  color: #336699;
+  font-weight:bold;
 }

@@ -21,7 +21,10 @@ export default function TopNav() {
       <Navbar.Brand className="navbar-header">
         Matthew William Rowley
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="navbarScroll" />
+      <Navbar.Toggle
+        aria-controls="navbarScroll"
+        className="justify-content-end"
+      />
       <Navbar.Collapse id="navbarScroll" className="justify-content-end">
         <Nav className="nav-links">
           <Nav.Link href="#home" onClick={() => nav("/")}>
@@ -38,8 +41,9 @@ export default function TopNav() {
             Projects
           </Nav.Link>
 
-          {/* <Nav.Link>Herbalism</Nav.Link>
-          <Nav.Link>Music</Nav.Link> */}
+          <Nav.Link href="#contact" onClick={() => nav("/contact")}>
+            Contact
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
       <Nav style={{ color: "#fff" }}></Nav>

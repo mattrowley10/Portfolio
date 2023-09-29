@@ -3,7 +3,8 @@ import { useRef, useEffect } from "react";
 export default function Home() {
   const ref = useRef();
   const inView = useInView(ref, {
-    threshold: 0.5,
+    threshold: 0,
+    margin: "-150px",
   });
   useEffect(() => {
     if (inView) {
@@ -16,6 +17,9 @@ export default function Home() {
   return (
     <div className="home" id="home">
       <img className="homeimg" src="MomsWedding.jpg" />
+      <p className="under-pic">
+        Hello, my name is Matthew and I am a<br></br> Software Developer.
+      </p>
       <ul className="icon-list">
         <li>
           <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
