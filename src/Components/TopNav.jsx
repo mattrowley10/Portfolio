@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-// import NavDropdown from "react-bootstrap/NavDropdown";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useNavigate } from "react-router";
 import { useEffect } from "react";
@@ -21,6 +21,20 @@ export default function TopNav() {
       <Navbar.Brand className="navbar-header">
         Matthew William Rowley
       </Navbar.Brand>
+      <NavDropdown style={{ color: "#fff" }}>
+        <ul className="dropdown">
+          <li className="contact-list-item">
+            <a href="https://github.com/mattrowley10">
+              <img src="git-icon.png" className="contact-icon" />
+            </a>
+          </li>
+          <li className="contact-list-item">
+            <a href="https://www.linkedin.com/in/matthewrowley28/">
+              <img src="linked-in-icon.png" className="contact-icon" />
+            </a>
+          </li>
+        </ul>
+      </NavDropdown>
       <Navbar.Toggle
         aria-controls="navbarScroll"
         className="justify-content-end"
@@ -39,10 +53,6 @@ export default function TopNav() {
             onClick={() => nav("/projects")}
           >
             Projects
-          </Nav.Link>
-
-          <Nav.Link href="#contact" onClick={() => nav("/contact")}>
-            Contact
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
