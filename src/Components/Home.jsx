@@ -16,54 +16,58 @@ export default function Home() {
 
   return (
     <div className="home" id="home">
-      <img className="homeimg" src="MomsWedding.jpg" />
+      <img className="homeimg" src="MomsWedding.jpg" alt="Front Image" />
       {/* <p className="under-pic">
         Hello, my name is Matthew and I am a<br></br> Software Developer.
       </p> */}
       <ul className="icon-list">
         <li>
           <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-            <img className="icons" src="jsIcon.png" />
+            <img className="icons" src="jsIcon.png" alt="JavaScript" />
           </a>
         </li>
         <li>
           <a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">
-            <img className="icons" src="reacticon.png" />
+            <img className="icons" src="reacticon.png" alt="React" />
           </a>
         </li>
         <li>
           <a href="https://react-bootstrap.netlify.app/">
-            <img className="icons" src="bootstrapicon.png" />
+            <img
+              className="icons"
+              src="bootstrapicon.png"
+              alt="React-Bootstrap"
+            />
           </a>
         </li>
         <li>
           <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
-            <img className="icons" src="htmlicon.png" />
+            <img className="icons" src="htmlicon.png" alt="HTML" />
           </a>
         </li>
         <li>
           <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-            <img className="icons" src="cssicon.png" />
+            <img className="icons" src="cssicon.png" alt="CSS" />
           </a>
         </li>
         <li>
           <a href="https://developer.mozilla.org/en-US/docs/Glossary/SQL">
-            <img className="icons" src="sqlicon.png" />
+            <img className="icons" src="sqlicon.png" alt="SQL" />
           </a>
         </li>
         <li>
           <a href="https://www.postgresql.org/docs/current/index.html">
-            <img className="icons" src="postgresqlicon.png" />
+            <img className="icons" src="postgresqlicon.png" alt="PostgreSQL" />
           </a>
         </li>
         <li>
           <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node">
-            <img className="icons" src="nodeicon.svg" />
+            <img className="icons" src="nodeicon.svg" alt="Node" />
           </a>
         </li>
         <li>
           <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction">
-            <img className="icons" src="expressicon.png" />
+            <img className="icons" src="expressicon.png" alt="Express" />
           </a>
         </li>
       </ul>
@@ -83,16 +87,25 @@ export default function Home() {
           myself any other time.
         </p>
       </div>
-      <img src="techimage.jpeg" className="aboutimg" ref={ref} />
+      <img
+        src="techimage.jpeg"
+        className="aboutimg"
+        ref={ref}
+        alt="Tech Image"
+      />
       <ul className="contact-list">
         <li className="contact-list-item">
           <a href="https://github.com/mattrowley10">
-            <img src="git-icon.png" className="contact-icon" />
+            <img src="git-icon.png" className="contact-icon" alt="GitHub" />
           </a>
         </li>
         <li className="contact-list-item">
           <a href="https://www.linkedin.com/in/matthewrowley28/">
-            <img src="linked-in-icon.png" className="contact-icon" />
+            <img
+              src="linked-in-icon.png"
+              className="contact-icon"
+              alt="LinkedIn"
+            />
           </a>
         </li>
       </ul>

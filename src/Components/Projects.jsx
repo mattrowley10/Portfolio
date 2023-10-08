@@ -21,15 +21,23 @@ export default function Projects() {
         >
           <Carousel.Item>
             <a href="https://astonishing-dolphin-abeb89.netlify.app/">
-              <img src="qwirty.png" className="project-img" />
+              <img
+                src="qwirty.png"
+                className="project-img"
+                alt="First Project"
+              />
             </a>
-            <Carousel.Caption>Designing the Holy Grail</Carousel.Caption>
+            <Carousel.Caption>
+              First Project Using Responsive CSS
+            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <a href="https://amca.onrender.com/">
               <img src="amca.png" className="project-img" />
             </a>
-            <Carousel.Caption>Team built E-Commerce Website</Carousel.Caption>
+            <Carousel.Caption>
+              Capstone Project, Team built E-Commerce Website
+            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <a href="https://fabulous-klepon-630ec6.netlify.app/">
