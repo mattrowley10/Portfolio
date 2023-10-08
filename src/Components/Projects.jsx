@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <div>
       <h2 className="projects-header">Projects</h2>
-      <div className="carousel-div">
+      <div className="container">
         <Carousel
           id="projects"
           title="Projects"
