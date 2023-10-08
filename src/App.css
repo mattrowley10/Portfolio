@@ -154,6 +154,23 @@
  margin: auto;
  text-align: center;
 }
+@media (min-width: 1600px){
+  .about-section{
+    top: 30rem;
+  }
+  .about-header{
+    top: 30rem;
+  }
+  .aboutimg{
+    top: 27rem;
+    left: 70rem;
+  }
+  .contact-list{
+    position: absolute;
+    top: 58rem;
+    left: 50rem;
+  }
+}
 @media(max-width: 1024px) {
   .app, html{
     overflow: scroll;
