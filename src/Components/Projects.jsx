@@ -20,6 +20,12 @@ export default function Projects() {
           data-bs-theme="dark"
         >
           <Carousel.Item>
+            <a href="https://cheery-pastelito-184353.netlify.app/">
+              <img src="rockpapertank.png" className="project-img" alt="RPT" />
+            </a>
+            <Carousel.Caption>A game called Rock Paper Tank</Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
             <a href="https://astonishing-dolphin-abeb89.netlify.app/">
               <img
                 src="qwirty.png"
