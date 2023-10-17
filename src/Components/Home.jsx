@@ -86,29 +86,31 @@ export default function Home() {
           my dog. Since delving into the world of code, that is where I find
           myself any other time.
         </p>
+        <img
+          src="techimage.jpeg"
+          className="aboutimg"
+          ref={ref}
+          alt="Tech Image"
+        />
       </div>
-      <img
-        src="techimage.jpeg"
-        className="aboutimg"
-        ref={ref}
-        alt="Tech Image"
-      />
-      <ul className="contact-list">
-        <li className="contact-list-item">
-          <a href="https://github.com/mattrowley10">
-            <img src="git-icon.png" className="contact-icon" alt="GitHub" />
-          </a>
-        </li>
-        <li className="contact-list-item">
-          <a href="https://www.linkedin.com/in/matthewrowley28/">
-            <img
-              src="linked-in-icon.png"
-              className="contact-icon"
-              alt="LinkedIn"
-            />
-          </a>
-        </li>
-      </ul>
+      <div className="contact-div">
+        <ul className="contact-list">
+          <li className="contact-list-item">
+            <a href="https://github.com/mattrowley10">
+              <img src="git-icon.png" className="contact-icon" alt="GitHub" />
+            </a>
+          </li>
+          <li className="contact-list-item">
+            <a href="https://www.linkedin.com/in/matthewrowley28/">
+              <img
+                src="linked-in-icon.png"
+                className="contact-icon"
+                alt="LinkedIn"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
