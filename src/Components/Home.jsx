@@ -86,12 +86,14 @@ export default function Home() {
           my dog. Since delving into the world of code, that is where I find
           myself any other time.
         </p>
-        <img
-          src="techimage.jpeg"
-          className="aboutimg"
-          ref={ref}
-          alt="Tech Image"
-        />
+        <div className="techImg">
+          <img
+            src="techimage.jpeg"
+            className="aboutimg"
+            ref={ref}
+            alt="Tech Image"
+          />
+        </div>
       </div>
       <div className="contact-div">
         <ul className="contact-list">
