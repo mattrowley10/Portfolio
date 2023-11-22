@@ -7,6 +7,7 @@
 }
 .app, html{
   min-height: 100vh;
+  
 }
 .navbar-header{
   font-family: 'Slabo';
@@ -135,7 +136,7 @@ width: 100%;
 .project-img{
   position: relative;
   height: 500px;
-  width: 600px;
+  width: 500px;
   margin-top: 5rem;
   margin-bottom: 5rem;
   border: 1px solid #336699;
@@ -149,6 +150,15 @@ width: 100%;
  margin: auto;
  text-align: center;
  
+}
+@media (min-width: 1600px){
+ .about-section{
+  position: relative;
+  top: 12rem;
+ }
+ .about-header{
+  top: 30rem;
+ }
 }
 @media (max-width:768px){
   .icon-list{
@@ -173,13 +183,18 @@ width: 100%;
     position: relative;
     top: 48rem;
   }
+  .project-img{
+    height: 400px;
+    width: 400px;
+  }
 }
 @media (max-width: 425px){
   .about-section{
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: 2rem;
+    margin-left: 0rem;
     position: relative;
+    margin-right: 0;
     top: 8rem;
   }
   .about-body{
@@ -189,7 +204,7 @@ width: 100%;
   }
   .about-header{
     top: 25rem;
-    left: 0rem;
+    left: -5rem;
   }
   .homeimg{
     left: 2rem;
@@ -206,21 +221,27 @@ width: 100%;
   }
   .aboutimg{
     position: relative;
-    top: 18rem;
-    left: 3rem;
+    top: 15rem;
+    left: 4rem;
+    transform: translateX(50px);
   }
   .contact-div{
     position: relative;
-    top: 28rem;
-    left: 2rem;
+    top: 25rem;
+    left: 0rem;
+  }
+  .project-img{
+    height: 300px;
+    width: 300px;
   }
 }
 @media (max-width: 375px){
   .about-section{
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: 4rem;
+    margin-left: 0rem;
     position: relative;
+    margin-right: 0;
     top: 8rem;
   }
   .about-body{
@@ -230,7 +251,7 @@ width: 100%;
   }
   .about-header{
     top: 25rem;
-    left: 0rem;
+    left: -5rem;
   }
   .homeimg{
     left: 1rem;
@@ -238,7 +259,7 @@ width: 100%;
     width: 350px;
   }
   .icon-list{
-    left: 0rem;
+    left: -1rem;
     top: 22rem;
   }
   .icons{
@@ -249,11 +270,16 @@ width: 100%;
     position: relative;
     top: 22rem;
     left: 1rem;
+    transform: translateX(20px);
   }
   .contact-div{
     position: relative;
     top: 31rem;
     left: 2rem;
+  }
+  .project-img{
+    height: 250px;
+    width: 250px;
   }
 }
 @media (max-width: 320px){
@@ -293,10 +319,16 @@ width: 100%;
   .aboutimg{
     position: relative;
     top: 22rem;
+    transform: translateX(10px);
   }
+
   .contact-div{
     position: relative;
     top: 30.5rem;
     left: 3rem;
+  }
+  .project-img{
+    height: 200px;
+    width: 200px;
   }
 }
