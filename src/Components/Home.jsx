@@ -4,7 +4,7 @@ export default function Home() {
   const ref = useRef();
   const inView = useInView(ref, {
     threshold: 0,
-    margin: "-200px",
+    margin: "-100px",
   });
   useEffect(() => {
     if (inView) {
@@ -86,14 +86,12 @@ export default function Home() {
           my dog. Since delving into the world of code, that is where I find
           myself any other time.
         </p>
-        <div className="techImg">
-          <img
-            src="techimage.jpeg"
-            className="aboutimg"
-            ref={ref}
-            alt="Tech Image"
-          />
-        </div>
+        <img
+          src="techimage.jpeg"
+          className="aboutimg"
+          ref={ref}
+          alt="Tech Image"
+        />
       </div>
       <div className="contact-div">
         <ul className="contact-list">
