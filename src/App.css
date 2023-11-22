@@ -28,10 +28,6 @@
 .dropdown{
   list-style: none;
 }
-.home{
-  background-color: #FFFFFB;
-  max-width: 100vh;
-}
 .homeimg{
   height: 300px;
   width: 400px;
@@ -155,226 +151,88 @@ width: 100%;
  text-align: center;
  
 }
-@media (min-width: 1600px){
+@media (max-width: 375px){
   .about-section{
-    top: 30rem;
-  }
-  .about-header{
-    top: 30rem;
-  }
-
-
-}
-@media(max-width: 1024px) {
-  .app, html{
-    overflow: scroll;
-  }
-
-  .about-header{
-    padding-left: 1rem;
-  }
-  .about-section{
-    flex-wrap: nowrap;
-    margin-left: 5rem;
-  }
-  .aboutimg{
-    top: 3rem;
-  }
-  .contact-div{
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 4rem;
     position: relative;
-    top: 32rem;
-    left: 4rem;
-  }
-
-}
-@media(max-width: 768px) {
-  .app, html{
-    overflow: scroll;
-  }
-  .homeimg{
-    left: 1rem;
-  }
-  .icon-list{
-    left: 24rem;
-    
-  }
-  .icons{
-    height: 40px;
-    width: 40px;
-    margin-right: 7px;
-  }
-  .about-header{
-    padding-left: 0rem;
-    margin-left: 1rem;
-  }
-  .about-section{
-    /* flex-wrap: wrap; */
-    margin-left: 1rem;
+    top: 8rem;
   }
   .about-body{
-    max-width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
+    margin-right: 0;
     padding-right: 0;
-    padding-left: 0;
-  }
-  .aboutimg{
-    top: 5rem;
-    left:4rem;
-  }
-
-  .project-img{
-    height: 400px;
-    width: 500px;
-  }
-  .contact-div{
-    position: relative;
-    top: 35rem;
-    left: 3rem;
-  }
-
-}
-@media (max-width: 425px) {
-  .app, html{
-    overflow: scroll;
-  }
-  .homeimg{
-    left: 3rem;
-  }
-  .icon-list{
-    top: 26rem;
-    left: 0rem;
+    font-size: 18px;
   }
   .about-header{
-    top: 30rem;
-    left: 2rem;
-  }
-  .about-section{
-    flex-wrap: wrap;
-    position: relative;
-    left: 3rem;
-    top: 10rem;
-    margin-left: 0rem;
-    max-width: 100%;
-    padding-left: 0;
-  }
-
-  .aboutimg{
-    position: relative;
-    top: 14rem;
-    left: 4rem;
-  }
-
-  .project-img{
-    height: 200px;
-    width: 300px;
-    margin-bottom: 7rem;
-  }
-  .contact-div{
-    position: relative;
     top: 25rem;
-    left: 4rem;
-  }
-
-}
-@media (max-width: 375px) {
-  .app, html{
-    overflow: scroll;
-  }
-  .homeimg{
-    left: 2rem;
-    height: 275px;
-    width: 325px;
-  }
-  .icon-list{
-    top: 24rem;
     left: 0rem;
   }
-  .about-header{
-    top: 28rem;
-    left: 3rem;
-  }
-  .about-section{
-    flex-wrap: wrap;
-    position: relative;
-    left: 2rem;
-    top: 10rem;
-    max-width: 100%;
-  }
-  .about-body{
-    padding-right: 0;
-    
-  }
-  .aboutimg{
-    position: relative;
-    top: 19rem;
-    transform: translateX(20px);
-  }
-  .aboutimg.active{
-    opacity: 1;
-    transform: translateX(-2rem);
-    transition: 3.5s ease;
-  }
-  
-  .contact-div{
-    position: relative;
-    top: 30rem;
+  .homeimg{
     left: 1rem;
+    height: 250px;
+    width: 350px;
+  }
+  .icon-list{
+    left: 0rem;
+    top: 22rem;
   }
   .icons{
     height: 35px;
     width: 35px;
   }
-
-}
-@media(max-width: 320px){
-  .about-header{
-    top: 27rem;
-    left: 2rem;
-  }
-  .about-section{
+  .aboutimg{
     position: relative;
-    left: 2rem;
-    flex-wrap: wrap;
-    flex-direction: column;
-    
-  }
-  .about-body{
-    font-size: 15px;
-  }
-  .homeimg{
-    height: 250px;
-    width: 300px;
-    left: 2rem;
-  }
-  .icon-list{
-    left: 0rem;
     top: 22rem;
-  }
-  .icons{
-    height: 30px;
-    width: 30px;
-    margin-right: 7px;
+    left: 1rem;
   }
   .contact-div{
     position: relative;
-    top: 22rem;
+    top: 31rem;
     left: 2rem;
+  }
+}
+@media (max-width: 320px){
+
+  .about-section{
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    position: relative;
+    top: 6rem;
+  }
+  .about-body{
+    margin-right: 0;
+    padding-right: 0;
+    font-size: 18px;
+  }
+  .about-header{
+    position: relative;
+    margin-left: 0;
+    top: 10rem;
+    left: 0rem;
+  }
+  .homeimg{
+    left: 1rem;
+    height: 200px;
+    width: 300px;
+  }
+  .icon-list{
+    left: -1rem;
+    top: 18rem;
+  }
+  .icons{
+    height: 35px;
+    width: 35px;
+    margin-right: 5px;
   }
   .aboutimg{
     position: relative;
-    top: 10rem;
-   
-    transform: translateX(10px)
+    top: 22rem;
   }
-  .aboutimg.active{
-  opacity: 1;
-  transform: translateX(-2rem);
-  transition: 3.5s ease;
-}
-
-  .project-img{
-    height: 150px;
-    width: 200px;
+  .contact-div{
+    position: relative;
+    top: 30.5rem;
+    left: 3rem;
   }
 }
