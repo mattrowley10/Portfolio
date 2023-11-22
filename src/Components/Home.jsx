@@ -15,7 +15,7 @@ export default function Home() {
   }, [ref, inView]);
 
   return (
-    <div className="home" id="home">
+    <div className="home">
       <img className="homeimg" src="MomsWedding.jpg" alt="Front Image" />
       {/* <p className="under-pic">
         Hello, my name is Matthew and I am a<br></br> Software Developer.
