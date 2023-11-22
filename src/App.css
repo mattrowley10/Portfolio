@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 .app, html{
-  overflow: hidden;
   background-color: #FFFFFB;
   min-height: 100vh;
 }
@@ -80,7 +79,7 @@
   position: absolute; 
   top: 25rem;
   color:#2F4858;
-  margin-left: 7rem;
+  margin-left: 5rem;
   font-family: "Slabo";
 }
 .about-header{
@@ -88,7 +87,7 @@
   top: 26rem;
   padding-left: 3rem;
   color: #2F4858;
-  margin-left: 5rem;
+  margin-left: 3rem;
   font-family: 'Slabo';
   font-weight: bold;
 }
@@ -298,23 +297,29 @@ width: 100%;
   .about-section{
     flex-wrap: wrap;
     position: relative;
-    left: 4rem;
+    left: 2rem;
     top: 10rem;
     max-width: 100%;
   }
   .about-body{
     padding-right: 0;
-    max-width: 100%;
+    
   }
   .aboutimg{
     position: relative;
     top: 19rem;
-    
+    transform: translateX(20px);
   }
+  .aboutimg.active{
+    opacity: 1;
+    transform: translateX(-2rem);
+    transition: 3.5s ease;
+  }
+  
   .contact-div{
     position: relative;
     top: 30rem;
-    left: 4rem;
+    left: 1rem;
   }
   .icons{
     height: 35px;
@@ -329,15 +334,13 @@ width: 100%;
   }
   .about-section{
     position: relative;
-    left: 3rem;
+    left: 2rem;
     flex-wrap: wrap;
     flex-direction: column;
     
   }
   .about-body{
-  padding-left: 0;
-  
-  
+    font-size: 15px;
   }
   .homeimg{
     height: 250px;
@@ -355,13 +358,14 @@ width: 100%;
   }
   .contact-div{
     position: relative;
-    top: 36rem;
-    left: 3rem;
+    top: 22rem;
+    left: 2rem;
   }
   .aboutimg{
     position: relative;
-    top: 25rem;
-    transform: translateX((0px));
+    top: 10rem;
+   
+    transform: translateX(10px)
   }
   .aboutimg.active{
   opacity: 1;
