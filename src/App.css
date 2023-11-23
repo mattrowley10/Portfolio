@@ -241,7 +241,7 @@ width: 100%;
   }
   .aboutimg{
     position: relative;
-    top: 15rem;
+    top: 16rem;
     left: 4rem;
     transform: translateX(50px);
   }
@@ -298,7 +298,7 @@ width: 100%;
     position: relative;
     height: 250px;
     width: 250px;
-    top: 16rem;
+    top: 17rem;
     left: 4rem;  
     opacity: 0;
     transform: translateX(50px);
@@ -310,8 +310,8 @@ width: 100%;
   }
   .contact-div{
     position: relative;
-    top: 25rem;
-    left: -1rem;
+    top: 26rem;
+    left: 0rem;
   }
   .project-img{
     height: 250px;
