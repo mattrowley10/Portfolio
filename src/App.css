@@ -241,7 +241,7 @@ width: 100%;
   }
   .aboutimg{
     position: relative;
-    top: 16rem;
+    top: 18rem;
     left: 4rem;
     transform: translateX(50px);
   }
@@ -253,7 +253,7 @@ width: 100%;
   
   .contact-div{
     position: relative;
-    top: 25rem;
+    top: 27rem;
     left: 0rem;
   }
   .project-img{
