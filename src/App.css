@@ -23,15 +23,13 @@
 .dropdown-menu.show{
   background-color: #1C3144;
   position: relative;
-  margin-right: 0;
+  
 }
 
 .dropdown{
   list-style: none;
 }
-.home{
-  width: auto;
-}
+
 .homeimg{
   height: 300px;
   width: 400px;
@@ -106,12 +104,12 @@
   width: 300px;
   margin-top: 3rem;
   opacity: 0;
-  transform: translateX(100px);
+  right: -200px;
 }
 .aboutimg.active{
   opacity: 1;
-  transform: translateX(0);
-  transition: 3.5s ease;
+  right: 0;
+  transition: opacity 0.5s ease, right 3.5s ease;
 }
 .contact-div{
 position: absolute;
@@ -164,6 +162,11 @@ width: 100%;
   top: 30rem;
  }
 }
+@media (max-width: 1024px){
+  .contact-div{
+    top: 48rem;
+  }
+}
 @media (max-width:768px){
   .icon-list{
     left: 20rem;
@@ -177,15 +180,26 @@ width: 100%;
   }
   .about-section{
     flex-direction: column;
+    margin-left: 0;
+    
+  }
+  .about-header{
+    margin-left: 0;
+    padding-left: 1rem;
+    
+  }
+  .about-body{
+    font-size: 18px;
+    padding-right: 0;
   }
   .aboutimg{
     position: relative;
-    left: 10rem;
-    top: 6rem;
+    top: 2rem;
+    left: 15rem;
   }
   .contact-div{
     position: relative;
-    top: 48rem;
+    top: 44rem;
   }
   .project-img{
     height: 400px;
@@ -210,7 +224,7 @@ width: 100%;
   }
   .about-header{
     top: 25rem;
-    left: 4rem;
+    left: 9rem;
   }
   .homeimg{
     left: 2.5rem;
@@ -229,7 +243,14 @@ width: 100%;
     position: relative;
     top: 15rem;
     left: 4rem;
+    transform: translateX(50px);
   }
+  .aboutimg.active{
+    opacity: 1;
+    transform: translateX(0px);
+    transition: 3.5s ease;
+  }
+  
   .contact-div{
     position: relative;
     top: 25rem;
@@ -241,9 +262,7 @@ width: 100%;
   }
 }
 @media (max-width: 375px){
-  .home{
-    max-width: 375px;
-  }
+
   .about-section{
     flex-direction: column;
     flex-wrap: wrap;
@@ -260,7 +279,7 @@ width: 100%;
   }
   .about-header{
     top: 25rem;
-    left: 2rem;
+    left: 7rem;
   }
   .homeimg{
     left: 1rem;
@@ -316,7 +335,7 @@ width: 100%;
     position: relative;
     margin-left: 0;
     top: 10rem;
-    left: 5rem;
+    left: 7rem;
   }
   .homeimg{
     left: 2.5rem;
