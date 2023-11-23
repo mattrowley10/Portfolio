@@ -298,7 +298,7 @@ width: 100%;
     position: relative;
     height: 250px;
     width: 250px;
-    top: 17rem;
+    top: 20rem;
     left: 4rem;  
     opacity: 0;
     transform: translateX(50px);
@@ -310,7 +310,7 @@ width: 100%;
   }
   .contact-div{
     position: relative;
-    top: 26rem;
+    top: 30rem;
     left: 0rem;
   }
   .project-img{
