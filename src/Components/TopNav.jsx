@@ -36,6 +36,13 @@ export default function TopNav() {
           >
             Projects
           </Nav.Link>
+          <Nav.Link
+            id="basic-nav-dropdown"
+            href="#resume"
+            onClick={() => nav("/resume")}
+          >
+            Resume
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
       <Nav style={{ color: "#fff" }}></Nav>
