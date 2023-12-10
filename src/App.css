@@ -11,7 +11,6 @@
 .home{
   position: absolute;
 }
-
 .navbar-header{
   font-family: 'Slabo';
 }
@@ -25,7 +24,6 @@
 }
 .dropdown-menu.show{
   background-color: #1C3144;
-  position: relative;
 }
 
 .dropdown{
@@ -294,7 +292,7 @@ top: 5rem;
     position: relative;
     height: 275px;
     width: 275px;
-    top: 18rem;
+    top: 20rem;
     left: 5rem; 
     right: 0; 
     opacity: 0;
@@ -307,7 +305,7 @@ top: 5rem;
   }
   .contact-div{
     left: 4rem;
-    top: 27rem;
+    top: 30rem;
     max-width: 300px;
   }
   .project-img{
