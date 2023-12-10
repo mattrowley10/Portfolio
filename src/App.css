@@ -79,7 +79,7 @@
 
 .about-header{
   position: relative;
-  /* padding-left: 3rem; */
+  padding-left: 6rem;
   color: #2F4858;
   margin-right: 5rem;
   font-family: 'Slabo';
@@ -98,7 +98,7 @@
   border-radius: 20%;
   height: 300px;
   width: 300px;
-  margin-top: 1rem;
+  margin-top: 0rem;
   opacity: 0;
   right: -200px;
 }
@@ -172,12 +172,12 @@ width: 100%;
 @media (max-width: 1090px){
   .contact-div{
     position: relative;
-    top: 28rem;
+    top: 0rem;
   }
 }
 @media (max-width: 1024px){
   .contact-div{
-    top: 32rem;
+    top: 9rem;
   }
   .aboutimg{
     top: 3rem;
@@ -250,7 +250,7 @@ width: 100%;
     padding-right: 0;
     position: relative;
     top: 3rem;
-    left: 1rem;
+    left: 0rem;
     max-width: 400px;
   }
   .about-body{
@@ -261,17 +261,17 @@ width: 100%;
   }
   .about-header{
     top: 3rem;
-   left: 8.5rem; 
+   left: 1rem; 
     max-width: 150px;
   }
   .homeimg{
-    margin-left: 3rem;
+    margin-left: 2rem;
     height: 250px;
     width: 325px;
   }
   .icon-list{
     margin-left: .5rem;
-    padding-left: 2rem ;
+    padding-left: 1rem ;
     top: 2rem;
     max-width: 325px;
   }
