@@ -82,9 +82,9 @@ export default function Home() {
           personal projects. My skills in both frontend and backend development
           along with my inquisitive nature and curiosity will be powerful assets
           to any organization. In my free time you might find me making tea and
-          meditating, playing video games, or wrestling (and/or cuddling) with
-          my dog. Since delving into the world of code, that is where I find
-          myself any other time.
+          meditating, playing video games, or wrestling (or cuddling) with my
+          dog. Since delving into the world of code, that is where I find myself
+          any other time.
         </p>
         <img
           src="techimage.jpeg"
