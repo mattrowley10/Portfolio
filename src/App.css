@@ -5,6 +5,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+.app, html{
+  max-height: 100%;
+}
+.home{
+  position: absolute;
+}
+
 .navbar-header{
   font-family: 'Slabo';
 }
@@ -15,7 +22,6 @@
 .navbar{
   background-color:#1C3144;
   font-family: 'Slabo';
-  /* width: 100%; */
 }
 .dropdown-menu.show{
   background-color: #1C3144;
@@ -30,8 +36,9 @@
   height: 300px;
   width: 400px;
   border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+  position: relative;
   margin-left: 5rem;
-  margin-top: 5rem;
+  top: 5rem; 
   animation: morph 6s ease-in-out infinite;
   transition: all 1s ease-in-out;
 }
@@ -54,7 +61,7 @@
   display: flex;
   flex-wrap: nowrap;
   position: relative;
-  bottom: 5rem;
+  bottom: 1rem;
   margin-left: 30rem;
 }
 .icons{
@@ -72,15 +79,16 @@
   position: relative; 
   bottom: 3rem;
   color:#2F4858;
+  top: 1rem;
   margin-left: 5rem;
   font-family: "Slabo";
-  
 }
 
 .about-header{
   position: relative;
   padding-left: 6rem;
   color: #2F4858;
+  top: 4rem;
   margin-right: 5rem;
   font-family: 'Slabo';
   font-weight: bold;
@@ -98,7 +106,6 @@
   border-radius: 20%;
   height: 300px;
   width: 300px;
-  margin-top: 0rem;
   opacity: 0;
   right: -200px;
 }
@@ -108,15 +115,20 @@
   transition: opacity 0.5s ease, right 3.5s ease;
 }
 .contact-div{
-position: absolute;
-bottom: 0;
-width: 100%;
+position: relative;
+top: 5rem;
+
 }
 
 .contact-list{
   list-style: none;
   display: flex;
   justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: 0;
+  
 }
 .contact-icon{
   height: 35px;
@@ -163,24 +175,23 @@ width: 100%;
 @media (min-width: 1600px){
   .about-section{
   position: relative;
-  top: 12rem;
+  /* top: 12rem; */
  }
-  .about-header{
-  top: 30rem;
- }
+.contact-div{
+  top: 15rem;
+}
 }
 @media (max-width: 1090px){
-  .contact-div{
-    position: relative;
-    top: 0rem;
-  }
+
 }
 @media (max-width: 1024px){
-  .contact-div{
-    top: 9rem;
-  }
+
   .aboutimg{
     top: 3rem;
+  }
+  .contact-div{
+    top: 7rem;
+    left: 2rem;
   }
 }
 @media (max-width: 995px){
@@ -192,7 +203,7 @@ width: 100%;
 @media (max-width:768px){
   .icon-list{
     margin-left: 20.5rem;
-    bottom: 4rem;
+    top: 1.5rem;    
   }
   .icons{
     margin-right:5px;
@@ -231,14 +242,14 @@ width: 100%;
     transform: translateX(0px);
     transition: 3.5s ease;
   }
-  .contact-div{
-    position: relative;
-    top: 5rem;
-    right: 1rem;
-  }
+
   .project-img{
     height: 400px;
     width: 400px;
+  }
+  .contact-div{
+    top: 8rem;
+    left: 0rem;
   }
 
 }
@@ -249,19 +260,19 @@ width: 100%;
     flex-wrap: wrap;
     padding-right: 0;
     position: relative;
-    top: 3rem;
+    top: 6rem;
     left: 0rem;
     max-width: 400px;
   }
   .about-body{
-    margin: 0 1rem 0 1rem ;
+    margin: 0 .5rem 0 1rem ;
     padding-right: 0;
     font-size: 17px;
     
   }
   .about-header{
-    top: 3rem;
-   left: 1rem; 
+    top: 6rem;
+    left: 9rem; 
     max-width: 150px;
   }
   .homeimg{
@@ -272,7 +283,7 @@ width: 100%;
   .icon-list{
     margin-left: .5rem;
     padding-left: 1rem ;
-    top: 2rem;
+    top: 6rem;
     max-width: 325px;
   }
   .icons{
@@ -283,8 +294,8 @@ width: 100%;
     position: relative;
     height: 275px;
     width: 275px;
-    top: 20rem;
-    left: 4rem; 
+    top: 18rem;
+    left: 5rem; 
     right: 0; 
     opacity: 0;
     transform: translateX(50px);
@@ -295,9 +306,8 @@ width: 100%;
     transition: 3.5s ease;
   }
   .contact-div{
-    position: relative;
-    top: 25rem;
-    left: 3.5rem;
+    left: 4rem;
+    top: 27rem;
     max-width: 300px;
   }
   .project-img{
@@ -312,7 +322,7 @@ width: 100%;
     flex-wrap: wrap;
     padding-right: 0;
     position: relative;
-    top: 3rem;
+    top: 6rem;
     left: 1rem;
     max-width: 350px;
   }
@@ -323,8 +333,8 @@ width: 100%;
     
   }
   .about-header{
-    top: 3rem;
-   left: 6.5rem; 
+    top: 6rem;
+   left: 7rem; 
     max-width: 150px;
   }
   .homeimg{
@@ -335,7 +345,7 @@ width: 100%;
   .icon-list{
     margin-left: .5rem;
     padding-left: 1rem ;
-    top: 2rem;
+    top: 6rem;
     max-width: 325px;
   }
   .icons{
@@ -358,9 +368,8 @@ width: 100%;
     transition: 3.5s ease;
   }
   .contact-div{
-    position: relative;
-    top: 25rem;
-    left: 2rem;
+    left: 2.5rem;
+    top: 30rem;
     max-width: 300px;
   }
   .project-img{
@@ -376,7 +385,7 @@ width: 100%;
     flex-wrap: wrap;
     margin-left: 2rem;
     position: relative;
-    top:4rem;
+    top:5rem;
     left: 0rem;
     margin-left: .75rem;
     max-width: 300px;
@@ -387,14 +396,11 @@ width: 100%;
     font-size: 15px;
     top: 10rem;    
   }
-  .flex-ab-header{
-    display: flex;
-    justify-content:flex-start;
-  }
+
   .about-header{
     position: relative;
     margin-left: 0;
-    top: 2.5rem;
+    top: 5rem;
     left: 5rem;
     max-width: 300px;
   
@@ -408,7 +414,7 @@ width: 100%;
     margin-left: 0rem;
     padding-right: .5rem;
     padding-left: 1.75rem;
-    top: 1rem;
+    top: 5.5rem;
     max-width: 260px;
   }
   .icons{
@@ -420,7 +426,7 @@ width: 100%;
     position: relative;
     height: 200px;
     width: 200px;
-    top: 16rem;
+    top: 17rem;
     left: 3rem;  
     right: 0;
     opacity: 0;
@@ -432,9 +438,8 @@ width: 100%;
     transition: 3.5s ease;
   }
   .contact-div{
-    position: relative;
-    top: 21rem;
-    left: 0rem;
+    left: 0.5rem;
+    top: 25rem;
     max-width: 300px;
   }
   .project-img{
