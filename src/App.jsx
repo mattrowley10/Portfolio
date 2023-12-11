@@ -7,7 +7,7 @@ import Home from "./Components/Home";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import Resume from "./Components/Resume";
-
+import "./index.css";
 function App() {
   return (
     <Router>

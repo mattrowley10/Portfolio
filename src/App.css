@@ -9,7 +9,7 @@
   max-height: 100%;
 }
 .home{
-  position: absolute;
+  position: relative;
 }
 .navbar-header{
   font-family: 'Slabo';
@@ -35,7 +35,7 @@
   width: 400px;
   border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
   position: relative;
-  margin-left: 5rem;
+  margin-left: 3rem;
   top: 5rem; 
   animation: morph 6s ease-in-out infinite;
   transition: all 1s ease-in-out;
@@ -60,7 +60,7 @@
   flex-wrap: nowrap;
   position: relative;
   bottom: 1rem;
-  margin-left: 30rem;
+  margin-left: 28rem;
 }
 .icons{
   margin-right: 10px;
@@ -114,7 +114,7 @@
 }
 .contact-div{
 position: relative;
-top: 5rem;
+top: 3.5rem;
 
 }
 
@@ -258,15 +258,12 @@ top: 5rem;
     flex-wrap: wrap;
     padding-right: 0;
     position: relative;
-    top: 6rem;
-    left: 0rem;
+    top: 2.5rem;
     max-width: 400px;
   }
   .about-body{
-    margin: 0 .5rem 0 1rem ;
     padding-right: 0;
     font-size: 17px;
-    
   }
   .about-header{
     top: 6rem;
@@ -280,7 +277,7 @@ top: 5rem;
   }
   .icon-list{
     margin-left: .5rem;
-    padding-left: 1rem ;
+    padding-left: .5rem ;
     top: 6rem;
     max-width: 325px;
   }
@@ -292,7 +289,7 @@ top: 5rem;
     position: relative;
     height: 275px;
     width: 275px;
-    top: 20rem;
+    top: 18rem;
     left: 5rem; 
     right: 0; 
     opacity: 0;
@@ -305,12 +302,12 @@ top: 5rem;
   }
   .contact-div{
     left: 4rem;
-    top: 30rem;
+    top: 25rem;
     max-width: 300px;
   }
   .project-img{
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
   }
 }
 @media (max-width: 375px){
@@ -371,8 +368,8 @@ top: 5rem;
     max-width: 300px;
   }
   .project-img{
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
   }
 }
 @media (max-width: 320px){
