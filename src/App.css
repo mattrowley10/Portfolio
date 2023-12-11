@@ -99,6 +99,7 @@
   font-weight:500;
 }
 .aboutimg{
+  position: relative;
   border-radius: 20%;
   height: 300px;
   width: 300px;
