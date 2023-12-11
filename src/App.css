@@ -59,8 +59,8 @@
   display: flex;
   flex-wrap: nowrap;
   position: relative;
-  bottom: 1rem;
-  margin-left: 28rem;
+  justify-content: center;
+  padding-left: 0;
 }
 .icons{
   margin-right: 10px;
@@ -74,8 +74,7 @@
 .about-section{
   display: flex; 
   flex-direction: row; 
-  position: relative; 
-  bottom: 3rem;
+  margin-top: 2rem;
   color:#2F4858;
   top: 1rem;
   margin-left: 5rem;
@@ -100,7 +99,6 @@
   font-weight:500;
 }
 .aboutimg{
-  position: relative;
   border-radius: 20%;
   height: 300px;
   width: 300px;
@@ -113,8 +111,8 @@
   transition: opacity 0.5s ease, right 3.5s ease;
 }
 .contact-div{
-position: relative;
-top: 3.5rem;
+display: flex;
+justify-content: center;
 
 }
 
@@ -122,16 +120,16 @@ top: 3.5rem;
   list-style: none;
   display: flex;
   justify-content: center;
-  position: absolute;
   width: 100%;
   bottom: 0;
   margin-bottom: 0;
-  
 }
+
 .contact-icon{
   height: 35px;
   width: 35px;
   margin-right: 1rem;
+  
 }
 .projects-header{
   color: #2F4858;
@@ -162,7 +160,6 @@ top: 3.5rem;
 .resume-div{
   display: flex;
   justify-content: center;
-  
 }
 .resume{
   height: 70rem;
@@ -173,7 +170,6 @@ top: 3.5rem;
 @media (min-width: 1600px){
   .about-section{
   position: relative;
-  /* top: 12rem; */
  }
 .contact-div{
   top: 15rem;
@@ -185,11 +181,16 @@ top: 3.5rem;
 @media (max-width: 1024px){
 
   .aboutimg{
+    position: relative;
     top: 3rem;
   }
   .contact-div{
+    position: relative;
     top: 7rem;
     left: 2rem;
+  }
+  .icon-list{
+    margin-left: 25rem;
   }
 }
 @media (max-width: 995px){
@@ -258,7 +259,7 @@ top: 3.5rem;
     flex-wrap: wrap;
     padding-right: 0;
     position: relative;
-    top: 2.5rem;
+    top: 1rem;
     max-width: 400px;
   }
   .about-body{
@@ -276,8 +277,7 @@ top: 3.5rem;
     width: 325px;
   }
   .icon-list{
-    margin-left: .5rem;
-    padding-left: .5rem ;
+    margin-left: 2rem;
     top: 6rem;
     max-width: 325px;
   }
@@ -301,7 +301,7 @@ top: 3.5rem;
     transition: 3.5s ease;
   }
   .contact-div{
-    left: 4rem;
+    left: 3rem;
     top: 25rem;
     max-width: 300px;
   }
@@ -318,7 +318,7 @@ top: 3.5rem;
     padding-right: 0;
     position: relative;
     top: 6rem;
-    left: 1rem;
+    /* left: 1rem; */
     max-width: 350px;
   }
   .about-body{
@@ -363,7 +363,7 @@ top: 3.5rem;
     transition: 3.5s ease;
   }
   .contact-div{
-    left: 2.5rem;
+    left: 2rem;
     top: 30rem;
     max-width: 300px;
   }
