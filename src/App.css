@@ -268,7 +268,7 @@ html, body{
   }
   .about-header{
     top: 6rem;
-    left: 9rem; 
+    left: 7.5rem; 
     max-width: 150px;
   }
   .homeimg{
@@ -277,7 +277,7 @@ html, body{
     width: 325px;
   }
   .icon-list{
-    margin-left: 3rem;
+    margin-left: 1rem;
     top: 6rem;
     max-width: 325px;
   }
@@ -289,7 +289,7 @@ html, body{
     position: relative;
     height: 275px;
     width: 275px;
-    top: 15rem;
+    top: 17rem;
     left: 5rem; 
     right: 0; 
     opacity: 0;
@@ -301,7 +301,7 @@ html, body{
     transition: 3.5s ease;
   }
   .contact-div{
-    left: 5rem;
+    left: 3rem;
     top: 20rem;
     max-width: 300px;
   }
