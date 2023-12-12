@@ -246,9 +246,9 @@ html, body{
     height: 400px;
     width: 400px;
   }
-  .contact-div{
-    /* top: 8rem;
-    left: 0rem; */
+  .resume{
+    height: 50rem;
+    width: 60rem;
   }
 
 }
@@ -310,6 +310,11 @@ html, body{
     height: 300px;
     width: 300px;
   }
+  .resume{
+    height: 38rem;
+    width:26rem;
+
+  }
 }
 @media (max-width: 375px){
 
@@ -323,8 +328,8 @@ html, body{
     max-width: 350px;
   }
   .about-body{
-    margin: 0 0rem 0 1rem ;
-    padding: 0;
+    
+    padding: 0 1rem 0 1rem;
     font-size: 17px;
     
   }
@@ -372,6 +377,11 @@ html, body{
     height: 300px;
     width: 300px;
   }
+  .resume{
+    height: 40rem;
+    width: 25rem;
+
+  }
 }
 @media (max-width: 320px){
 
@@ -379,15 +389,13 @@ html, body{
     padding-right: 0;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: 2rem;
     position: relative;
     top:5rem;
     left: 0rem;
-    margin-left: .75rem;
     max-width: 300px;
   }
   .about-body{
-    padding: 0;
+    padding: 0 1rem 0 1rem;
     margin-right: 0;
     font-size: 15px;
     top: 10rem;    
@@ -422,7 +430,7 @@ html, body{
     position: relative;
     height: 200px;
     width: 200px;
-    top: 18rem;
+    top: 22rem;
     left: 3rem;  
     right: 0;
     opacity: 0;
@@ -440,5 +448,10 @@ html, body{
   .project-img{
     height: 200px;
     width: 200px;
+  }
+  .resume{
+    height: 30rem;
+    width: 20rem;
+
   }
 }
