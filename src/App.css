@@ -277,7 +277,7 @@ html, body{
     width: 325px;
   }
   .icon-list{
-    margin-left: 2rem;
+    margin-left: 3rem;
     top: 6rem;
     max-width: 325px;
   }
@@ -352,7 +352,7 @@ html, body{
     height: 250px;
     width: 250px;
     top: 22rem;
-    left: 3.5rem; 
+    left: 4rem; 
     right: 0; 
     opacity: 0;
     transform: translateX(50px);
@@ -363,7 +363,8 @@ html, body{
     transition: 3.5s ease;
   }
   .contact-div{
-    margin-top: 4rem;
+    left: 3rem;
+    margin-top: 9rem;
     max-width: 300px; 
   }
   .project-img{
@@ -405,9 +406,9 @@ html, body{
     width: 275px;
   }
   .icon-list{
-    margin-left: 0rem;
-    padding-right: .5rem;
-    padding-left: 1.75rem;
+    margin-left: 1rem;
+    /* padding-right: .5rem; */
+    padding-left: 1rem;
     top: 5.5rem;
     max-width: 260px;
   }
@@ -420,7 +421,7 @@ html, body{
     position: relative;
     height: 200px;
     width: 200px;
-    top: 17rem;
+    top: 18rem;
     left: 3rem;  
     right: 0;
     opacity: 0;
