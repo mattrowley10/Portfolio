@@ -307,8 +307,9 @@ html, body{
     max-width: 300px;
   }
   .project-img{
-    height: 300px;
+    height: 250px;
     width: 300px;
+    margin-bottom: 6rem;
   }
   .resume{
     height: 38rem;
@@ -374,8 +375,9 @@ html, body{
     max-width: 300px; 
   }
   .project-img{
-    height: 300px;
+    height: 250px;
     width: 300px;
+    margin-bottom: 6rem;
   }
   .resume{
     height: 40rem;
@@ -446,7 +448,7 @@ html, body{
     max-width: 300px; 
   }
   .project-img{
-    height: 200px;
+    height: 150px;
     width: 200px;
   }
   .resume{
