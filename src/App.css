@@ -264,6 +264,7 @@ html, body{
   }
   .about-body{
     padding-right: 2rem;
+    padding-left: 2rem ;
     font-size: 17px;
   }
   .about-header{
