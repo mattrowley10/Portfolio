@@ -289,7 +289,7 @@ html, body{
     position: relative;
     height: 275px;
     width: 275px;
-    top: 18rem;
+    top: 20rem;
     left: 4rem; 
     right: 0; 
     opacity: 0;
@@ -302,7 +302,7 @@ html, body{
   }
   .contact-div{
     left: 3rem;
-    top: 22rem;
+    top: 23rem;
     max-width: 300px;
   }
   .project-img{
