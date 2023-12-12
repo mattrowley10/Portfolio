@@ -263,7 +263,7 @@ html, body{
     /* max-width: 400px; */
   }
   .about-body{
-    padding-right: 0;
+    padding-right: 2rem;
     font-size: 17px;
   }
   .about-header{
@@ -277,7 +277,7 @@ html, body{
     width: 325px;
   }
   .icon-list{
-    margin-left: 1rem;
+    margin-left: 2rem;
     top: 6rem;
     max-width: 325px;
   }
@@ -290,7 +290,7 @@ html, body{
     height: 275px;
     width: 275px;
     top: 17rem;
-    left: 5rem; 
+    left: 4rem; 
     right: 0; 
     opacity: 0;
     transform: translateX(50px);
