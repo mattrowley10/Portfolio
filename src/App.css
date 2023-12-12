@@ -263,8 +263,8 @@ html, body{
     /* max-width: 400px; */
   }
   .about-body{
-    padding-right: 2rem;
-    padding-left: 2rem ;
+    padding-right: 1rem;
+    padding-left: 1rem ;
     font-size: 17px;
   }
   .about-header{
