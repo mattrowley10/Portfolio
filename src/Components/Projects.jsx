@@ -20,6 +20,18 @@ export default function Projects() {
           data-bs-theme="dark"
         >
           <Carousel.Item>
+            <a href="https://ornate-meerkat-7bb6c1.netlify.app/">
+              <img
+                src="mysticmeditation.png"
+                className="project-img"
+                alt="mystic meditation"
+              />
+            </a>
+            <Carousel.Caption>
+              A Spotify Integrated Meditation App
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
             <a href="https://cheery-pastelito-184353.netlify.app/">
               <img src="rockpapertank.png" className="project-img" alt="RPT" />
             </a>
