@@ -28,7 +28,7 @@ export default function Projects() {
               />
             </a>
             <Carousel.Caption>
-              A Spotify Integrated Meditation App
+              A Spotify Integrated Meditation App: Ask me how to Sign Up.
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>

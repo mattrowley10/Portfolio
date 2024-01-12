@@ -166,14 +166,13 @@ html, body{
   width: 60rem;
   margin-top: 5rem;
   border: 2px solid black;
+  image-rendering: optimizeQuality;
 }
 @media (min-width: 1600px){
   .about-section{
   position: relative;
  }
-.contact-div{
-  /* top: 15rem; */
-}
+
 }
 @media (max-width: 1090px){
 
@@ -312,8 +311,8 @@ html, body{
     margin-bottom: 6rem;
   }
   .resume{
-    height: 38rem;
-    width:26rem;
+    height: 42rem;
+    width: 26rem;
 
   }
 }
@@ -380,8 +379,8 @@ html, body{
     margin-bottom: 6rem;
   }
   .resume{
-    height: 40rem;
-    width: 25rem;
+    height: 37rem;
+    width: 23rem;
 
   }
 }
@@ -452,8 +451,8 @@ html, body{
     width: 200px;
   }
   .resume{
-    height: 30rem;
-    width: 20rem;
+    height: 26rem;
+    width: 18rem;
 
   }
 }
