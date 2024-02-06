@@ -60,7 +60,7 @@ html, body{
   flex-wrap: nowrap;
   position: relative;
   justify-content: center;
-  padding-left: 0;
+  
 }
 .icons{
   margin-right: 10px;
@@ -172,6 +172,7 @@ html, body{
   .about-section{
   position: relative;
  }
+
 
 }
 @media (max-width: 1090px){

@@ -20,6 +20,18 @@ export default function Projects() {
           data-bs-theme="dark"
         >
           <Carousel.Item>
+            <a href="https://nixfixllc.com/">
+              <img
+                src="nixfix.png"
+                className="project-img"
+                alt="A website made for an Esthetician"
+              />
+            </a>
+            <Carousel.Caption>
+              A website made for an Esthetician
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
             <a href="https://ornate-meerkat-7bb6c1.netlify.app/">
               <img
                 src="mysticmeditation.png"
