@@ -13,6 +13,7 @@ html, body{
 }
 .navbar-header{
   font-family: 'Slabo';
+  cursor: pointer;
 }
 .nav-links{
   color: white;
@@ -144,7 +145,7 @@ html, body{
   height: 500px;
   width: 650px;
   margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
   border: 1px solid #336699;
   box-shadow: 1px 1px 1px 1px #336699;
   border-radius: 5%;
@@ -172,8 +173,20 @@ html, body{
   .about-section{
   position: relative;
  }
-
-
+.about-body{
+  padding-top: 0;
+  margin-top: 3rem;
+  line-height: 2rem;
+  font-size: 20px;
+}
+.icon-list{
+  justify-content: left;
+  margin-left: 28rem;
+}
+.project-img{
+  height: 600px;
+  width: 800px;
+}
 }
 @media (max-width: 1090px){
 

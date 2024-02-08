@@ -28,7 +28,8 @@ export default function Projects() {
               />
             </a>
             <Carousel.Caption>
-              A website made for an Esthetician
+              My first customer built website for my friend who is an
+              Esthetician
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>

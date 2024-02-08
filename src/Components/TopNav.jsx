@@ -19,7 +19,7 @@ export default function TopNav() {
   return (
     <Navbar expand="lg" className="navbar" data-bs-theme="dark" fixed="top">
       <Container fluid>
-        <Navbar.Brand className="navbar-header">
+        <Navbar.Brand className="navbar-header" onClick={() => nav("/")}>
           Matthew William Rowley
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
