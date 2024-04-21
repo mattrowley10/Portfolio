@@ -33,7 +33,7 @@ export default function Projects() {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <a href="https://ornate-meerkat-7bb6c1.netlify.app/">
+            <a href="https://mysticmeditation.netlify.app">
               <img
                 src="mysticmeditation.png"
                 className="project-img"

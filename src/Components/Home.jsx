@@ -17,9 +17,6 @@ export default function Home() {
   return (
     <div className="home">
       <img className="homeimg" src="MomsWedding.jpg" alt="Front Image" />
-      {/* <p className="under-pic">
-        Hello, my name is Matthew and I am a<br></br> Software Developer.
-      </p> */}
       <ul className="icon-list">
         <li>
           <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
